@@ -35,6 +35,21 @@ let changeText = () => {
 changeText();
 setInterval(changeText, 3000);
 
+// read more -------------------------------------------------//
+
+// const readMoreBtn = document.getElementById("read-more-btn");
+// const moreText = document.getElementById("more-text");
+
+// readMoreBtn.addEventListener("click", () => {
+//   if (moreText.style.display === "none") {
+//     moreText.style.display = "inline";
+//     readMoreBtn.textContent = "Read less!";
+//   } else {
+//     moreText.style.display = "none";
+//     readMoreBtn.textContent = "Read more!";
+//   }
+// });
+
 // circle skills --------------------------------------------------------------------------//
 
 const circles = document.querySelectorAll(".circle");
