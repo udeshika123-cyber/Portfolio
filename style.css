@@ -216,6 +216,7 @@ section {
   overflow: hidden;
   z-index: 1;
   border: 2px solid var(--hover-color);
+  cursor: pointer;
 }
 .btn:hover {
   color: var(--hover-color);
@@ -349,7 +350,21 @@ section {
   color: #fdfdfd;
   font-weight: 300;
   margin-bottom: 1.5rem;
+  /* font-family: "Times New Roman", Times, serif; */
 }
+#more-text {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+#more-text.show {
+  opacity: 1;
+  max-height: 500px; /* or whatever large enough height */
+}
+
 .info-about1,
 .info-about2,
 .info-about3 {
