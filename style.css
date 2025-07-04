@@ -362,7 +362,10 @@ section {
 
 #more-text.show {
   opacity: 1;
-  max-height: 500px; /* or whatever large enough height */
+  max-height: 500px;
+  color: #e0e6e0;
+  font-weight: bold;
+  font-size: 13px; /* or whatever large enough height */
 }
 
 .info-about1,
@@ -508,10 +511,10 @@ section {
   box-shadow: var(--neon-box-shadow);
 }
 .skill-bar .bar .html {
-  width: 72%;
+  width: 95%;
   animation: html 2s;
 }
-.skill-bar .bar .figma {
+.skill-bar .bar .java {
   width: 90%;
   animation: figma 3s;
 }
@@ -520,7 +523,7 @@ section {
   animation: javascript 4s;
 }
 .skill-bar .bar .css {
-  width: 62%;
+  width: 85%;
   animation: css 5s;
 }
 .professional {
