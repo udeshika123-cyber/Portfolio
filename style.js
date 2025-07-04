@@ -37,18 +37,18 @@ setInterval(changeText, 3000);
 
 // read more -------------------------------------------------//
 
-// const readMoreBtn = document.getElementById("read-more-btn");
-// const moreText = document.getElementById("more-text");
+const readMoreBtn = document.getElementById("read-more-btn");
+const moreText = document.getElementById("more-text");
 
-// readMoreBtn.addEventListener("click", () => {
-//   if (moreText.style.display === "none") {
-//     moreText.style.display = "inline";
-//     readMoreBtn.textContent = "Read less!";
-//   } else {
-//     moreText.style.display = "none";
-//     readMoreBtn.textContent = "Read more!";
-//   }
-// });
+readMoreBtn.addEventListener("click", () => {
+  if (moreText.classList.contains("show")) {
+    moreText.classList.remove("show");
+    readMoreBtn.textContent = "Read more!";
+  } else {
+    moreText.classList.add("show");
+    readMoreBtn.textContent = "Read less!";
+  }
+});
 
 // circle skills --------------------------------------------------------------------------//
 
