@@ -350,7 +350,6 @@ section {
   color: #fdfdfd;
   font-weight: 300;
   margin-bottom: 1.5rem;
-  /* font-family: "Times New Roman", Times, serif; */
 }
 #more-text {
   opacity: 0;
@@ -363,9 +362,13 @@ section {
 #more-text.show {
   opacity: 1;
   max-height: 500px;
-  color: #e0e6e0;
-  font-weight: bold;
-  font-size: 13px; /* or whatever large enough height */
+  color: #fdfdfd;
+  font: bold;
+  letter-spacing: 1px;
+  /* font-weight: bold; */
+  font-size: 16px; /* or whatever large enough height */
+  /* font-family: "poppins", sans-serif; */
+  text-transform: none;
 }
 
 .info-about1,
